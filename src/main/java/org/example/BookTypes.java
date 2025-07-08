@@ -40,5 +40,5 @@ public abstract class BookTypes {
         return ISBN;
     }
 
-    public abstract void processPurchase(String email, String address);
+    public abstract void Service(String email, String address);
 }

@@ -11,7 +11,7 @@ public class Test {
 
         BookTypes paper = new PaperBook("P123", "Java Basics", LocalDate.of(2016, 1, 1), 100.0, 10, true, 10);
         BookTypes ebook = new EBook("E456", "AI Intro", LocalDate.of(2022, 1, 1), 60.0, 5, "PDF", true);
-        BookTypes demo = new DemoBook("D789", "Sample Book", LocalDate.of(2010, 1, 1));
+        BookTypes demo = new DemoBook("D789", "Sample Book", LocalDate.of(2009, 1, 1));
 
         inventory.Add(paper);
         inventory.Add(ebook);
@@ -22,7 +22,7 @@ public class Test {
         int num=1;
         if(!removedBooks.isEmpty()) {
             for (BookTypes book : removedBooks) {
-                System.out.println("removed book number " + num + " is " + book.getTitle() + "with ispn " + book.getISBN());
+                System.out.println("removed book number " + num + " is " + book.getTitle() + " with ispn " + book.getISBN());
                 num++;
             }
         }

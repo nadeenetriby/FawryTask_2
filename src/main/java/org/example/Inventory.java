@@ -42,7 +42,7 @@ public class Inventory {
                 book.setQuantity(book.getQuantity()-quantity);
                 System.out.println("the paid amount is "+ quantity* book.getPrice());
 
-                book.processPurchase(email,address);
+                book.Service(email,address);
             }
         }
         if(!isbnFind){

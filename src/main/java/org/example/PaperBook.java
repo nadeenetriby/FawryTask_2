@@ -11,7 +11,7 @@ public class PaperBook extends BookTypes{
         this.stockNumber=stockNumber;
     }
     @Override
-    public void processPurchase(String email, String address) {
+    public void Service(String email, String address) {
         System.out.println("send to shipping service to address "+ address);
     }
 }

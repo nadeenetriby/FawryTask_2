@@ -8,7 +8,7 @@ public class DemoBook extends BookTypes{
 
     }
     @Override
-    public void processPurchase(String email, String address) {
+    public void Service(String email, String address) {
         throw new IllegalArgumentException("cant buy demo book");
     }
 }

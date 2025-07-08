@@ -17,7 +17,7 @@ public class EBook extends BookTypes{
         else System.out.println("No email to send");
     }
     @Override
-    public void processPurchase(String email, String address) {
+    public void Service(String email, String address) {
         System.out.println("send to Mail service with email "+ email);
     }
 }
