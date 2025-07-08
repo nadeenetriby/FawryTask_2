@@ -20,9 +20,9 @@ Inventory Operations:
     
 Diagram:
     BookTypes (Abstract)  
-├── PaperBook  
-├── EBook  
-└── DemoBook  
+    ├── PaperBook  
+    ├── EBook  
+    └── DemoBook  
     Inventory  
     Test  
 -----------------------------------------------------------------------------------------------------------------
