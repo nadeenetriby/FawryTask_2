@@ -17,3 +17,11 @@ Inventory Operations:
     Remove and return outdated books that passed specific number of years
 
     Buy a book from invertory
+    
+Diagram:
+    BookTypes (Abstract)  
+├── PaperBook  
+├── EBook  
+└── DemoBook  
+    Inventory  
+    Test  
