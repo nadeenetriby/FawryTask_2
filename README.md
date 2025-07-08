@@ -19,6 +19,7 @@ Inventory Operations:
     Buy a book from invertory
     
 Diagram:
+
     BookTypes (Abstract)  
     ├── PaperBook  
     ├── EBook  
